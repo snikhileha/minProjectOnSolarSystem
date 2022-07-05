@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>The Solar System</title>
+		<style>
+			main{
+				background-color: burlywood;
+				border-width: 15px;
+				border-radius: 10px;
+				border-color: black;
+			}
+			div h1{
+				font-weight:700;
+				font-family: 'Times New Roman', Times, serif;
+				text-align: center;
+				color: black;
+			}
+			h1:hover {
+				text-decoration: underline;
+				transition-delay: 2ms;
+				font-family: Verdana, Geneva, Tahoma, sans-serif;
+			}
+			figure.images {
+				display: block;
+				text-align: center;
+			}
+			figure.images img{
+				border: 3px solid yellow;
+				margin: auto;
+				border-radius: 5px;
+			}
+			div.planetInfo{
+				background-color: black;
+				text-align: center;
+				border: 5px solid yellow;
+				margin: 30px 238px 48px;
+				border-radius: 10px;
+				width: 850px;
+			}
+			table, td {
+				color:aqua;
+				font-family: Georgia, 'Times New Roman', Times, serif;
+				text-align: center;
+				font-weight: bold;
+				margin:auto;
+				padding: 5px;
+				border-spacing: 5px;
+				
+			}
+			td:hover div.hide{
+				color : blanchedalmond;
+				display: block;
+			}
+			.hide{
+				display: none;
+			}
+			div.endDetails{
+				display: block;
+				background-color: darkolivegreen;
+				color: black;
+				margin: 2px;
+				padding: 0%;
+				text-align: center;
+			}
+			span{
+				margin: 50px;
+				color: white;
+			}
+		</style>
+	</head>
+	<body>
+	<main>
+		<div>
+			<h1>SOLAR SYSTEM</h1>
+		</div>
+		<div class="planetInfo">
+			<table>
+				<tr>
+					<td>
+						<div class="details" >SUN</div>
+						<div class="hide">
+							<span>Our Sun is a 4.5 billion-year-old star – a hot glowing ball of hydrogen and helium at the center of our solar system. The Sun is about 93 million miles (150 million kilometers) from Earth, and without its energy, life as we know it could not exist here on our home planet.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >MERCURY</div>
+						<div class="hide">
+							<span>Mercury is the smallest planet in our solar system. It's a little bigger than Earth's Moon. It is the closest planet to the Sun, but it's actually not the hottest. Venus is hotter.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >VENUS</div>
+						<div class="hide">
+							<span>Venus is the second planet from the Sun and Earth's closest planetary neighbor. Even though Mercury is closer to the Sun, Venus is the hottest planet in our solar system. Its thick atmosphere is full of the greenhouse gas carbon dioxide, and it has clouds of sulfuric acid.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >EARTH</div>
+						<div class="hide">
+							<span>Earth is the third planet from the sun and the only planet to have an atmosphere containing free oxygen, oceans of water on its surface and life. In the solar system, Earth is the fifth largest of the planets.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >MARS</div>
+						<div class="hide">
+							<span>Mars is the fourth planet from the Sun and the second-smallest planet in the Solar System, being larger than only Mercury. In English, Mars carries the name of the Roman god of war. Mars is a terrestrial planet with a thin atmosphere, and has a crust primarily composed of elements similar to Earth's crust, as well as a core made of iron and nickel. Mars has surface features such as impact craters, valleys, dunes, and polar ice caps. It also has two small and irregularly shaped moons, Phobos and Deimos.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >JUPIER</div>
+						<div class="hide">
+							<span>Jupiter is the fifth planet from our Sun and is, by far, the largest planet in the solar system – more than twice as massive as all the other planets combined. Jupiter's stripes and swirls are actually cold, windy clouds of ammonia and water, floating in an atmosphere of hydrogen and helium.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >SATURN</div>
+						<div class="hide">
+							<span>Saturn is the sixth planet from the Sun and the second-largest planet in our solar system. Like fellow gas giant Jupiter, Saturn is a massive ball made mostly of hydrogen and helium. Saturn is not the only planet to have rings, but none are as spectacular or as complex as Saturn's. Saturn also has dozens of moons.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >URANUS</div>
+						<div class="hide">
+							<span>Uranus is the seventh planet from the Sun, and has the third-largest diameter in our solar system. It was the first planet found with the aid of a telescope, Uranus was discovered in 1781 by astronomer William Herschel, although he originally thought it was either a comet or a star.</span>
+						</div>
+					</td>
+					<td>
+						<div class="details" >NEPTUNE</div>
+						<div class="hide">
+							<span>Neptune orbits our Sun, a star, and is the eighth planet from the Sun at a distance of about 2.8 billion miles (4.5 billion kilometers).</span>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</div>
+		<!--<h4>Please click on the planet to see the details:<h4>-->
+		<div class="viewSolarSystem">
+			<div class="solarSystemImg">
+				<figure class="images">
+				<img src="https://p0.pikist.com/photos/262/139/solar-system-planets-universe-cosmos-sun-mercury-venus-earth-mars.jpg" alt="solar system" width="auto" height="auto" usemap="#planets">
+				<figcaption>THE SOLAR SYSTEM:CLICK ON PLANET TO SEE</figcaption>
+				<map name="planets">
+					<area shape="circle" coords="877,216,125" href="https://images.app.goo.gl/4HSVbW8H9hEMoFLo9" alt="Sun" target="_self" title="SUN" type="">
+					<area shape="circle" coords="714,220,17" href="https://thumbs.dreamstime.com/b/mercury-first-planet-solar-system-background-sun-starry-sky-153813815.jpg" alt="MERCURY" target="_self" title="MERCURY">
+					<area shape="circle" coords="659,219,30" href="https://cdn.mos.cms.futurecdn.net/RifjtkFLBEFgzkZqWEh69P.jpg" alt="VENUS" target="_self" title="VENUS">
+					<area shape="circle" coords="595,219,30" href="https://www.thoughtco.com/thmb/QSc-i9Bs4grA24lXAxvM3-GnrL8=/1024x1024/filters:fill(auto,1)/Earth_Eastern_Hemisphere-56a8cda43df78cf772a0cc74.jpg" alt="EARTH" target="_self" title="EARTH">
+					<area shape="circle" coords="529,219,23" href="https://cdn.mos.cms.futurecdn.net/L868HCTDT8ueAXXrcyXoWc.jpg" alt="MARS" target="_self" title="MARS">
+					<area shape="circle" coords="426,219,70" href="https://cdn.britannica.com/66/155966-131-17B5B518/Jupiter.jpg" alt="JUPITER" target="_self" title="JUPITER">
+					<area shape="poly" coords="254,188,267,180,330,161,350,200,306,243,224,268,207,248,230,206" href="https://img.freepik.com/free-photo/saturn-planet-with-night-view-rising-sun-realistic-view-solar-system-3d-rendering_508524-249.jpg?w=2000" alt="SATURN" target="_self" title="SATURN">
+					<area shape="circle" coords="160,220,40" href="https://ychef.files.bbci.co.uk/976x549/p0257vk5.jpg" alt="URANUS" target="_self" title="URANUS">
+					<area shape="circle" coords="72,220,35" href="https://scitechdaily.com/images/Neptune-Planet-Illustration.jpg" alt="NEPTUN" target="_self" title="NEPTUN">
+				</map>	
+				</figure>
+			</div>			
+		</div>
+		<footer>
+			<div class="endDetails">
+				<span>Created by : Sneha Nikhil Deshpande</span><br>
+				<span>Topic coverd: HTML, CSS</span><br>
+				<span><strong>Thank You!</strong></span>
+			</div>
+			
+		</footer>
+	</main>
+	
+	</body>
+</html>
